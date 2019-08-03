@@ -13,7 +13,7 @@ public class App {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
             try {
-                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+                fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -27,7 +27,7 @@ public class App {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
             try {
-                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+                fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -41,7 +41,7 @@ public class App {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
             try {
-                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+                fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -56,7 +56,7 @@ public class App {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
             try {
-                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+                fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
