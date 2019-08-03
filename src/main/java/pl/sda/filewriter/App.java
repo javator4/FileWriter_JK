@@ -80,6 +80,7 @@ public class App {
                     thread3.start();
                     thread4.start();
 
+                    FileWriterSingleton fileWriterSingleton = new FileWriterSingleton();
                 }
             }
         }
