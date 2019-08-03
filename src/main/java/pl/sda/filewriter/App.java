@@ -1,5 +1,7 @@
 package pl.sda.filewriter;
 
+import java.io.IOException;
+
 /**
  * Hello world!
  */
@@ -10,6 +12,11 @@ public class App {
         public void run() {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
+            try {
+                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -19,7 +26,11 @@ public class App {
         public void run() {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
-
+            try {
+                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -29,7 +40,11 @@ public class App {
         public void run() {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
-
+            try {
+                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -40,7 +55,11 @@ public class App {
         public void run() {
             FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
             System.out.println(fileWriterSingleton);
-
+            try {
+                fileWriterSingleton.write("To jest drugi watek", "data.txt");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }
