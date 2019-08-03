@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d5bd22a-78ab-4fca-9713-ec3833e11caa" name="Default Changelist" comment="">
+    <list default="true" id="4d5bd22a-78ab-4fca-9713-ec3833e11caa" name="Default Changelist" comment="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filewriter_JK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/filewriter/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/filewriter/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/FileWriterSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/sda/filewriter/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/filewriter/FileWriterSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/filewriter/FileWriterSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App$Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/filewriter/App.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -51,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App$Task2$Task3$Task4">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App$Task2$Task3$Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.filewriter.App$Task2$Task3$Task4" />
       <module name="Filewriter_JK" />
@@ -96,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App$Task2$Task3$Task4" />
         <item itemvalue="Application.App$Task2" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564835470037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;">
+      <created>1564835596914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835596914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +211,7 @@
     <MESSAGE value="Stworzenie pola instance, który jest null" />
     <MESSAGE value="To jest cała konstrukcja Singletona" />
     <MESSAGE value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;&#10;&#10;This reverts commit 59f964e6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;&#10;&#10;This reverts commit 59f964e6" />
+    <MESSAGE value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;" />
   </component>
 </project>

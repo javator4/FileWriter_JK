@@ -4,14 +4,17 @@ import java.io.File;
 
 public class FileWriterSingleton {
     private static FileWriterSingleton instance;
+
     private FileWriterSingleton() {
 
     }
-    public static FileWriterSingleton getInstance(){
-        if (instance == null){
-            instance = new FileWriterSingleton();
-            return instance;
-        }
 
+    public static FileWriterSingleton getInstance() {
+        if (instance == null) {
+            System.out.println("JESTEM W IF");
+            instance = new FileWriterSingleton();
+
+        }
+        return instance;
     }
 }
