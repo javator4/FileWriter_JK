@@ -19,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -140,7 +141,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564835069342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stworzenie pola instance, który jest null">
+      <created>1564835227735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835227735</updated>
+    </task>
+    <task id="LOCAL-00006" summary="To jest cała konstrukcja Singletona">
+      <created>1564835283257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835283257</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;&#10;&#10;This reverts commit 59f964e6">
+      <created>1564835470037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835470037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +181,9 @@
     <MESSAGE value="Teraz nasze watki dzialaja wolniej przez petle sleep. Przeplatają się znacznie wyraźniej" />
     <MESSAGE value="Dodanie wątków 3 i 4" />
     <MESSAGE value="Stworzenie prywatnego konstruktora a wiec w App nie uda się stworzyć konstruktora FileWriterSingleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stworzenie prywatnego konstruktora a wiec w App nie uda się stworzyć konstruktora FileWriterSingleton" />
+    <MESSAGE value="Stworzenie pola instance, który jest null" />
+    <MESSAGE value="To jest cała konstrukcja Singletona" />
+    <MESSAGE value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;&#10;&#10;This reverts commit 59f964e6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;To jest cała konstrukcja Singletona na pliku&quot;&#10;&#10;This reverts commit 59f964e6" />
   </component>
 </project>
