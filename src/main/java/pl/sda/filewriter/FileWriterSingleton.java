@@ -12,7 +12,7 @@ public class FileWriterSingleton {
 
     }
 
-    public static FileWriterSingleton getInstance() {
+    public synchronized static FileWriterSingleton getInstance() {
         if (instance == null) {
             System.out.println("JESTEM W IF");
             instance = new FileWriterSingleton();
@@ -20,7 +20,6 @@ public class FileWriterSingleton {
         }
         return instance;
     }
-
     public void write(String text, String file) throws IOException {
         FileWriter writer = new FileWriter(new File(file), true);
         //true dokleja a false nadpisuje tekst w stworzonym pliku txt

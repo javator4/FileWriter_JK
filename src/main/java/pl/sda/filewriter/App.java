@@ -10,7 +10,8 @@ public class App {
 
         @Override
         public void run() {
-            FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            //        FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            SingletonEnum fileWriterSingleton = SingletonEnum.INSTANCE;
             System.out.println(fileWriterSingleton);
             try {
                 fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
@@ -24,7 +25,9 @@ public class App {
 
         @Override
         public void run() {
-            FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            //   FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            SingletonEnum fileWriterSingleton = SingletonEnum.INSTANCE;
+
             System.out.println(fileWriterSingleton);
             try {
                 fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
@@ -38,7 +41,9 @@ public class App {
 
         @Override
         public void run() {
-            FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            // FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            SingletonEnum fileWriterSingleton = SingletonEnum.INSTANCE;
+
             System.out.println(fileWriterSingleton);
             try {
                 fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
@@ -53,7 +58,8 @@ public class App {
 
         @Override
         public void run() {
-            FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            //         FileWriterSingleton fileWriterSingleton = FileWriterSingleton.getInstance();
+            SingletonEnum fileWriterSingleton = SingletonEnum.INSTANCE;
             System.out.println(fileWriterSingleton);
             try {
                 fileWriterSingleton.write("To jest drugi watek \n", "data.txt");
